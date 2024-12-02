@@ -9,4 +9,4 @@ We implement the specification as defined in the ethereum/consensus-specs reposi
 
 |      Updated       |   Champion/s    |
 | :----------------: | :-------------: |
-| :heavy_check_mark: | @Giulio2002 |
+|  | @Giulio2002 |
