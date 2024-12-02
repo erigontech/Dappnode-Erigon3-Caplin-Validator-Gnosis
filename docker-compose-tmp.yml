@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   beacon-chain:
-    image: beacon-chain.erigon-caplin-gnosis.dnp.dappnode.eth:1.0.0
+    image: beacon-chain.erigon3-caplin-gnosis.dnp.dappnode.eth:1.0.0
     build:
       context: beacon-chain
       args:
@@ -29,7 +29,7 @@ services:
       HTTP_ENGINE: ""
       NODE_TYPE: Full
   validator:
-    image: validator.lighthouse-gnosis.dnp.dappnode.eth:1.0.0
+    image: validator.erigon3-caplin-gnosis.dnp.dappnode.eth:1.0.0
     build:
       context: validator
       args:

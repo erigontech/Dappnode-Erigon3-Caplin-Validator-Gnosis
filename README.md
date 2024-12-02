@@ -1,13 +1,12 @@
-# Lighthouse DAppNode package (gnosis config)
+# Caplin DAppNode Package (Erigon3 Config)
 
-**Lighthouse gnosis ETH2.0 Beacon chain + validator**
+**Caplin ETH2.0 Beacon Chain + Validator**
 
-Lighthouse is an Ethereum consensus client that connects to other Ethereum consensus clients to form a resilient and decentralized proof-of-stake blockchain.
+Caplin is an Ethereum consensus client that connects to other Ethereum consensus clients to form a resilient and decentralized proof-of-stake blockchain.
 
 We implement the specification as defined in the ethereum/consensus-specs repository.
 
-![avatar](lighthouse-avatar.png)
 
 |      Updated       |   Champion/s    |
 | :----------------: | :-------------: |
-| :heavy_check_mark: | @pablomendez_95 |
+| :heavy_check_mark: | @Giulio2002 |

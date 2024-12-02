@@ -32,3 +32,17 @@ fields:
     required: true
     pattern: "^0x[a-fA-F0-9]{40}$"
     patternErrorMessage: Must be a valid address (0x1fd16a...)
+  - id: nodeType
+    target:
+      type: environment
+      name: NODE_TYPE
+      service: validator
+    title: Node Type
+    description: >-
+      Choose the type of node you want to run. Archive nodes store all historical data, Full nodes store historical data and the current state, and Minimal nodes store only the current state.
+      If you are unsure, choose Full. If you are  low on disk space, choose Minimal. If you want to have all the data, choose Archive.
+    required: true
+    enum:
+      - Full
+      - Archive
+      - Minimal
