@@ -36,13 +36,14 @@ fields:
     target:
       type: environment
       name: NODE_TYPE
-      service: validator
+      service: beacon-chain
     title: Node Type
     description: >-
       Choose the type of node you want to run. Archive nodes store all historical data, Full nodes store historical data and the current state, and Minimal nodes store only the current state.
       If you are unsure, choose Full. If you are  low on disk space, choose Minimal. If you want to have all the data, choose Archive.
+      *Note - this setting cannot be changed after the node is running.*
     required: true
     enum:
+      - Minimal
       - Full
       - Archive
-      - Minimal
