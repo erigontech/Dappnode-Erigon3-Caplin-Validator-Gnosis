@@ -27,7 +27,7 @@ services:
       P2P_PORT: 29004
       TCP_P2P_PORT: 29005
       HTTP_ENGINE: ""
-      NODE_TYPE: Full
+      NODE_TYPE: Minimal
   validator:
     image: validator.lighthouse-gnosis.dnp.dappnode.eth:1.0.0
     build:
