@@ -42,7 +42,7 @@ services:
     environment:
       DEBUG_LEVEL: info
       HTTP_WEB3SIGNER: http://web3signer.web3signer-gnosis.dappnode:9000
-      BEACON_NODE_ADDR: http://beacon-chain.lighthouse-gnosis.dappnode:3500
+      BEACON_NODE_ADDR: http://beacon-chain.erigon-caplin-gnosis.dappnode:3500
       GRAFFITI: validating_from_DAppNode
       EXTRA_OPTS: ""
       FEE_RECIPIENT_ADDRESS: ""
