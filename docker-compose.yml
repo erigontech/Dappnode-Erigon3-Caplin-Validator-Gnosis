@@ -10,6 +10,8 @@ services:
       - beacon-data:/root/.lighthouse
     ports:
       - 29005:29005/tcp
+      - 29005:29005/udp
+      - 29004:29004/tcp
       - 29004:29004/udp
       - 30405:30405/tcp
       - 42069:42069/tcp
