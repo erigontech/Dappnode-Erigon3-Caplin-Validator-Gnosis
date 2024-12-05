@@ -44,6 +44,6 @@ exec erigon --datadir=${DATADIR} \
     --authrpc.vhosts=* \
     --db.size.limit=8TB \
     --prune.mode=${PRUNE_MODE} \
-    --caplin.max-inbound-traffic-per-peer=4MB \
-    --caplin.max-outbound-traffic-per-peer=4MB \
+    --caplin.max-inbound-traffic-per-peer=1.5MB \
+    --caplin.max-outbound-traffic-per-peer=1.5MB \
     ${EXTRA_OPTs}
