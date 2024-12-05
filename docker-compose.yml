@@ -23,7 +23,7 @@ services:
     environment:
       DEBUG_LEVEL: info
       BEACON_API_PORT: 3500
-      CORSDOMAIN: http://lighthouse-gnosis.dappnode
+      CORSDOMAIN: http://erigon-caplin-gnosis.dappnode
       CHECKPOINT_SYNC_URL: ""
       EXTRA_OPTS: ""
       P2P_PORT: 29004

@@ -1,5 +1,5 @@
 {
-  "name": "erigon3-caplin-gnosis.dnp.dappnode.eth",
+  "name": "erigon-caplin-gnosis.dnp.dappnode.eth",
   "version": "1.0.0",
   "architectures": ["linux/amd64"],
   "shortDescription": "Erigon+Caplin Gnosis Chain CL Beacon chain + validator",
