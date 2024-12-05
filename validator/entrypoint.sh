@@ -53,7 +53,7 @@ exec -c lighthouse \
     --enable-doppelganger-protection \
     --init-slashing-protection \
     --datadir /root/.lighthouse \
-    --beacon-nodes http://172.33.0.27:3500 \
+    --beacon-nodes ${BEACON_API_PORT} \
     --graffiti="$GRAFFITI" \
     --http \
     --http-address 0.0.0.0 \
