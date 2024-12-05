@@ -21,7 +21,7 @@ elif [ "$NODE_TYPE" == "Minimal" ]; then
     PRUNE_MODE="minimal"
 fi
 
-exec erigon --datadir=${DATADIR} \
+exec erigon  \
     --http.addr=0.0.0.0 \
     --chain=${CHAIN} \
     --http.vhosts=* \
@@ -44,6 +44,4 @@ exec erigon --datadir=${DATADIR} \
     --authrpc.vhosts=* \
     --db.size.limit=8TB \
     --prune.mode=${PRUNE_MODE} \
-    --caplin.max-inbound-traffic-per-peer=1.5MB \
-    --caplin.max-outbound-traffic-per-peer=1.5MB \
     ${EXTRA_OPTs}
