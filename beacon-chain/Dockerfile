@@ -1,4 +1,4 @@
-FROM erigontech/erigon:main-f22317e
+FROM erigontech/erigon:v3.0.0-alpha7
 
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
